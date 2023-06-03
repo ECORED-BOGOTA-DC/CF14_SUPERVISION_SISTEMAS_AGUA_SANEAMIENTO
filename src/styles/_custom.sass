@@ -2,18 +2,176 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 30%
+    right: 90%
   &-2
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 20%
+    right: 70%
+  &-3
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 65%
+    right: 75%
+  &-4
+    animation: float2 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 50%
+    right: 90%
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
+
+.banner-principal__row
+  justify-content: space-between !important
+  .banner-principal__img
+    padding-right: 0px !important
+    padding-bottom: 0px !important
+
+.cajon.color-primario
+  background-color: #F7F8FB
+.cajon.color-primario:before
+  background-color: #12263F
+
+.cajon.color-secundario
+  background-color: #D9EEEE
+.cajon.color-secundario:before
+  background-color: #008B8A
+
+.cajon.color-acento-contenido
+  background-color: #F7F8FB
+.cajon.color-acento-contenido:before
+  background-color: #12263F
+
+.lista-ol--separador li, .lista-ul--separador li
+  border-bottom: dashed .5px #B0C0D2
+
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+  background-color: #EDF7FE
+
+.bloque-texto-g.color-primario
+  background-color: #3076B6
+
+.tabla-a th
+  background-color: #DBEFFC
+
+.tarjeta.tarjeta--azul.acordion__activo
+  background-color: #EDF7FE
+
+.cajon.color-primario
+  background-color: #E0F4FE
+.cajon.color-primario:before
+  background-color: #3076B6
+
+.bloque-texto-d.color-secundario:before
+  background-color: #E4F3FD
+
+.lista-ol--cuadro__vineta
+  background-color: #FFA031
+  span
+    color: $color-sistema-texto
+    font-weight: bold
+
+.pasos-a.color-primario .pasos-a__numero::after
+  border-left-color: #3076B6
+.pasos-a.color-primario .pasos-a__linea__esquina__linea
+  border-color: #3076B6
+.pasos-a.color-primario .pasos-a__linea .hor-line
+  border-top-color: #3076B6
+
+.tarjeta-avatar-b__img
+  left: 3%
+.tarjeta-avatar-b .tarjeta
+  padding-left: 6%
+  background-color: #F6F6F6
+
+.tarjeta.color-primario
+  background-color: #46a3df
+  background-image: linear-gradient(180deg, #46a3df 0%, #22629c 100%)
+
+.tarjeta-numerada
+    border: solid 3px
+.tarjeta-numerada.color-secundario
+  height: 100%
+.tarjeta-numerada.color-primario
+  height: 100%
+
+.bg
+  &-c1
+    background-image: url(../assets/curso/tema2/img1.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+    background-position: right
+    @media screen and ( max-width: $bp-max-lg )
+      background-color: #F6F6F6
+      background-image: none
+      border-top-left-radius: 35px
+      border-bottom-right-radius: 35px
+  &-c2
+    background-color: #EDF7FE
+    margin-inline: -3.2rem !important
+  &-c3
+    background-color: #FFA031
+    border-bottom-left-radius: 35px
+    border-bottom-right-radius: 35px
+    height: 130px
+  &-c4
+    background-color: #3076B6
+    border-bottom-left-radius: 35px
+    border-bottom-right-radius: 35px
+    height: 130px
+  &-c5
+    background-color: #4DB1F0
+    border-bottom-left-radius: 35px
+    border-bottom-right-radius: 35px
+    height: 130px
+  &-c6
+    background-color: #F7F8FB
+  &-c7
+    background-image: url(../assets/curso/tema2/img13.svg)
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center
+    margin-inline: -3.2rem !important
+  &-c8
+    background-color: #3076B6
+    border-top-right-radius: 35px
+    border-bottom-left-radius: 35px
+  &-c9
+    margin-inline: -3.2rem !important
+  &-c10
+    background-image: url(../assets/curso/tema2/img17.svg)
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center
+    margin-inline: -3.2rem !important
+  &-c11
+    border: 4px solid #FFA031
+    border-radius: 25px
+  &-c12
+    background-image: url(../assets/curso/tema2/img17.svg)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    margin-inline: -3.2rem !important
+  &-p1
+    position: relative
+    top: -60px
+    background-color: #dedede
+    background-image: linear-gradient(180deg, #dedede 0%, #fefefe 46%, #dedede 100%)
+    border-radius: 25px
+    margin-bottom: -20px
+
+.txt
+  &-c1
+    color: #3076B6
