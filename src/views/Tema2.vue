@@ -2,16 +2,16 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Fundamentos básicos de hidráulica e hidrología
     .row.align-items-center
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p El agua es un compuesto formado por dos átomos de hidrógeno y un átomo de oxígeno, con la propiedad de disolver una gran variedad de sustancias. El ciclo del agua permite el tránsito en diferentes momentos y estados de la materia (líquido, sólido y gaseoso), para alimentar las fuentes superficiales y subterráneas, por acción de la gravedad y la radiación solar.
         .cajon.color-secundario.p-4
           p.mb-0 El agua es captada y conducida a través de un sistema articulado de dispositivos, accesorios, equipos, procesos y procedimientos que trabajan bajo la dinámica de este fluido en ríos canales y tuberías.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img1.png', style="width: 530px").m-auto
     Separador
@@ -22,38 +22,38 @@
       .col-12
         .px-5
           .row.align-items-center.bg-c1
-            .col-lg-3.p-4.p-lg-0
+            .col-lg-3.p-4.p-lg-0(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/tema2/img2.png', style="width: 270px").m-auto
-            .col-lg-9.p-4.p-lg-0
+            .col-lg-9.p-4.p-lg-0(data-aos="fade-left")
               p.mb-0 Un sistema de abastecimiento de agua es la articulación de varias actividades, procesos y equipos necesarios para garantizar la continuidad, presión, calidad y cantidad del recurso hídrico a una población determinada, como menciona la Comisión Nacional del Agua (2007) en su manual de agua, alcantarillado y saneamiento. Las fuentes de abastecimiento pueden ser superficiales, subterráneas o mixtas (combinación de las dos) y, dependiendo de las condiciones topográficas del sistema, el suministro puede ser por gravedad o por bombeo. Los procesos de abastecimiento comprenden: captación, tratamiento, almacenamiento y distribución.
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-down")
       .col-lg-auto.mb-4.mb-lg-0
         p.text-center.mb-0 #[b Dentro de los esquemas de distribución, se encuentran:]
       .col-lg-6
         figure
           img(src='@/assets/curso/tema2/img2.svg', style="width: 770px").m-auto
-    p Los esquemas de distribución cerrados consisten en la disposición de las tuberías en forma de mallas poligonales, sin ramificaciones. Por su parte, en las abiertas se configuran de manera irregular, sobre todo en asentamientos dispersos, alejados y con algunas variaciones topográficas en el terreno. Es posible que un sistema de abastecimiento cuente con una configuración de esquema mixto, es decir en unas zonas se dispone de mallas cerradas y en otras zonas ramificadas o abiertas.
+    p(data-aos="fade-right") Los esquemas de distribución cerrados consisten en la disposición de las tuberías en forma de mallas poligonales, sin ramificaciones. Por su parte, en las abiertas se configuran de manera irregular, sobre todo en asentamientos dispersos, alejados y con algunas variaciones topográficas en el terreno. Es posible que un sistema de abastecimiento cuente con una configuración de esquema mixto, es decir en unas zonas se dispone de mallas cerradas y en otras zonas ramificadas o abiertas.
     .row.align-items-center.mb-3
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p La red de distribución de un sistema de abastecimiento de agua potable puede ser primaria o secundaria. La primera se caracteriza por ser tramos principales de tuberías de un diámetro y tamaño mayor que alimentan a las secundarias con dimensiones inferiores a la red principal. La segunda se encarga de conectar las instalaciones del usuario final a la red primaria, finalmente, las acometidas o conexiones domiciliarias conectan la red secundaria a las instalaciones del usuario.
         .cajon.color-acento-contenido.p-4
           p.mb-0 Dependiendo de las condiciones del terreno, así como la ubicación de la fuente de abastecimiento y la unidad donde se llevan a cabo los procesos correspondientes al tratamiento, los mecanismos de distribución hasta el usuario final pueden ser por gravedad o bombeo. En ambos casos la presión constante garantiza continuidad en el suministro.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img3.png', style="width: 450px").m-auto
-    p Dentro de los costos operativos de un sistema de abastecimiento, la red de distribución requiere un 50-75 % del presupuesto (Centro Panamericano de Ingeniería Sanitaria y Ciencias del Ambiente, 2002).
-    p.mb-5 Con relación a las características de una red de abastecimiento que requiere una verificación constante, se pueden encontrar los componentes, que comprenden: tuberías, válvulas, hidrantes, motores, rejillas, tanques de almacenamiento y otros que se detallan a continuación:
+    p(data-aos="fade-down") Dentro de los costos operativos de un sistema de abastecimiento, la red de distribución requiere un 50-75 % del presupuesto (Centro Panamericano de Ingeniería Sanitaria y Ciencias del Ambiente, 2002).
+    p.mb-5(data-aos="fade-right") Con relación a las características de una red de abastecimiento que requiere una verificación constante, se pueden encontrar los componentes, que comprenden: tuberías, válvulas, hidrantes, motores, rejillas, tanques de almacenamiento y otros que se detallan a continuación:
     .row.bg-c2.mb-5
-      .col-12
+      .col-12(data-aos="fade-up")
         .p-4.p-lg-5
           SlyderB(:datos="datosSlyder")
-    p.text-center.mb-5 #[b Algunos aspectos a tener en cuenta frente a las redes de abastecimiento son:]
+    p.text-center.mb-5(data-aos="fade-right") #[b Algunos aspectos a tener en cuenta frente a las redes de abastecimiento son:]
     .row.align-items-center
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/img3.svg', style="width: 270px").m-auto
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         ul.lista-ul--separador
           li.d-flex
             i.fas.fa-check-circle(style="color: #FFA031")
@@ -77,9 +77,9 @@
     #t_2_2
     .titulo-segundo.color-acento-contenido
       h2 2.2 Verificación de tuberías
-    p Canalizar o conducir el agua entre diferentes puntos requiere establecer la definición del tipo de dispositivos y accesorios destinados para tal fin. 
-    p.mb-5 Según el concepto emitido por Orellana. (2005), las tuberías son dispositivos que permiten la conducción y transporte de agua entre unos puntos determinados teniendo en cuenta el perfil del terreno. De acuerdo con el Ministerio de Ambiente, Vivienda, Ciudad y Territorio, en su documento RAS, en el Título B, los factores a tener en cuenta para elección del sistema de tuberías son:
-    .row
+    p(data-aos="fade-down") Canalizar o conducir el agua entre diferentes puntos requiere establecer la definición del tipo de dispositivos y accesorios destinados para tal fin. 
+    p.mb-5(data-aos="fade-down") Según el concepto emitido por Orellana. (2005), las tuberías son dispositivos que permiten la conducción y transporte de agua entre unos puntos determinados teniendo en cuenta el perfil del terreno. De acuerdo con el Ministerio de Ambiente, Vivienda, Ciudad y Territorio, en su documento RAS, en el Título B, los factores a tener en cuenta para elección del sistema de tuberías son:
+    .row(data-aos="fade-right")
       .col-11.col-md-5.col-lg.m-2
         .row
           .col-12.px-0
@@ -108,7 +108,7 @@
               img(src='@/assets/curso/tema2/img7.svg').m-auto
           .col-12.bg-c3.p-4
             p.text-center.mb-0 #[b Condiciones económicas del sistema a instalar (mantenimiento, operación, costos de inversión)]
-    .row.mb-5
+    .row.mb-5(data-aos="fade-left")
       .col-11.col-md-5.col-lg.m-2
         .row
           .col-12.px-0
@@ -137,9 +137,9 @@
               img(src='@/assets/curso/tema2/img11.svg').m-auto
           .col-12.bg-c4.p-4
             p.text-center.text-white.mb-0 #[b Vida útil del proyecto]
-    p.mb-4 Existen diferentes tipos de materiales y características inherentes relacionadas con la tubería seleccionada, que en nuestro país se deben conocer para su elección cuando se vayan a instalar en el sistema de agua, de tal manera que permitan su adecuado funcionamiento y no afecten las condiciones de calidad del agua.
+    p.mb-4(data-aos="fade-down") Existen diferentes tipos de materiales y características inherentes relacionadas con la tubería seleccionada, que en nuestro país se deben conocer para su elección cuando se vayan a instalar en el sistema de agua, de tal manera que permitan su adecuado funcionamiento y no afecten las condiciones de calidad del agua.
     .row.align-items-center.mb-4
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 Las Normas Técnicas Colombianas relacionadas con la especificación de las tuberías pueden consultarse por medio del entonces Ministerio de Vivienda, Ciudad y Territorio, en el documento RAS 2000 [Título B], en la página 108; sin embargo, algunas también podrán ser consultadas en las bases de datos del SENA las siguientes:
         ul.lista-ul--separador
@@ -159,17 +159,17 @@
             i.fas.fa-check-circle(style="color: #FFA031")
             |
             p.mb-0 #[b NTC 2295 y seleccionar NTC 2295:2008]. Uniones con sellos elastoméricos flexibles para tubos plásticos empleados para el transporte de fluidos a presión.
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img12.svg' style="width: 450px").m-auto
     .row.mb-5
-      .col-12.bg-c6.p-4
+      .col-12.bg-c6.p-4(data-aos="fade-down")
         p.mb-0 #[b Nota]: en caso de utilizarse materiales diferentes y no contemplados en las NTC, se pueden considerar otras opciones, siempre y cuando cumplan las especificaciones internacionales: AWWA (#[i American Water Works Association Standard]), ISO (#[i International Standard Organization]), ASTM (#[i American Society for Testing and Materials]) o DIN (#[i Deutsche Industrie Normen]) para sistemas de acueducto,  y adicionalmente a las anteriormente mencionadas, la #[i American National Standards Institute] - ANSI, para sistemas de alcantarillado.
     .row.mb-4
       .col-auto.bg-c8.px-4.py-3
         h3.text-white.mb-0 Características de los materiales
     p.mb-5 Existen múltiples características de los materiales que se utilizan para los sistemas de aguas; atendiendo lo que clasifica para este tema el Ministerio de Vivienda, Ciudad y territorio. (RAS 2000), los más comunes son los que se mencionan a continuación:
-    .row.bg-c7
+    .row.bg-c7(data-aos="fade-right")
       .col-12
         .py-4.px-5
           .row.justify-content-center
@@ -180,14 +180,14 @@
             .col-lg-10
               figure
                 img(src='@/assets/curso/tema2/img15.svg').m-auto
-    p Dependiendo del tipo de material, edad y condiciones del sistema, se generará una resistencia o fricción en la circulación del agua por el ducto. Este se conoce como coeficiente de rugosidad y se puede consultar en las especificaciones técnicas del mismo (Comisión Nacional del Agua, 2007).
-    p.mb-5 Las tuberías de alcantarillado no deben estar en la misma zanja de las tuberías del acueducto y su cota clave siempre debe estar por debajo de la cota batea de la tubería de acueducto, conforme a lo dispuesto en el Artículo 138 de la Resolución 330 (2017).
-    .row.mb-4
+    p(data-aos="fade-down") Dependiendo del tipo de material, edad y condiciones del sistema, se generará una resistencia o fricción en la circulación del agua por el ducto. Este se conoce como coeficiente de rugosidad y se puede consultar en las especificaciones técnicas del mismo (Comisión Nacional del Agua, 2007).
+    p.mb-5(data-aos="fade-down") Las tuberías de alcantarillado no deben estar en la misma zanja de las tuberías del acueducto y su cota clave siempre debe estar por debajo de la cota batea de la tubería de acueducto, conforme a lo dispuesto en el Artículo 138 de la Resolución 330 (2017).
+    .row.mb-4(data-aos="fade-right")
       .col-auto.bg-c8.px-4.py-3
         h3.text-white.mb-0 Accesorios objeto de verificación
-    p.mb-5 Tanto los accesorios como las tuberías hacen parte de la red de alcantarillado, y en ambos casos deben estar diseñados para resistir las características del agua conducida. Estos accesorios son:
+    p.mb-5(data-aos="fade-down") Tanto los accesorios como las tuberías hacen parte de la red de alcantarillado, y en ambos casos deben estar diseñados para resistir las características del agua conducida. Estos accesorios son:
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Cámaras de inspección")
             .col-lg-5.mb-4.mb-lg-0
@@ -212,33 +212,33 @@
     .titulo-segundo.color-acento-contenido
       h2 2.3 Hidráulica básica
     .row.align-items-center.mb-5
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         p.mb-3 La hidráulica es una rama de la física que se encarga de estudiar el comportamiento de los fluidos en movimiento (hidrodinámica) o estáticos (hidrostática).
         .cajon.color-secundario.p-4.mb-3
           p.mb-0 Teniendo en cuenta que la materia se puede encontrar en tres estados: líquido, sólido y gaseoso, esta ciencia se enfoca en la característica esencial que un fluido es aquel que “fluye”, no es rígido y puede adoptar la forma del recipiente que lo contiene, es decir, hace referencia a los líquidos y gases según lo menciona Gratton. (2002).
         p.mb-0 Las propiedades de los fluidos que son elementales entender para hacer un proceso de verificación de los sistemas de acueducto son:
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img16.png' style="width: 450px").m-auto
-    .row.bg-c9.mb-5
+    .row.bg-c9.mb-5(data-aos="fade-down")
       .col-12.px-0.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema2/img17.png').m-auto
       .col-12.px-0.d-block.d-lg-none
         figure
           img(src='@/assets/curso/tema2/img17m.png').m-auto
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       .col-auto.bg-c8.px-4.py-3
         h3.text-white.mb-0 Aforo de caudal
-    p.mb-4 Una de las acciones más importantes para realizar la verificación de un sistema de agua es el aforo de caudal. Se trata de medir un flujo. Puede ser de manera directa con algún aparato, equipo o procedimiento, o de forma indirecta, por ejemplo, determinando el caudal a partir del nivel del agua.
-    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    p.mb-4(data-aos="fade-down") Una de las acciones más importantes para realizar la verificación de un sistema de agua es el aforo de caudal. Se trata de medir un flujo. Puede ser de manera directa con algún aparato, equipo o procedimiento, o de forma indirecta, por ejemplo, determinando el caudal a partir del nivel del agua.
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img18.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La ecuación de continuidad (Figura 1), como menciona Sotelo (1994) en su libro hidráulica básica, está determinada por el principio de conservación de la materia, donde la masa de un fluido es almacenada en un volumen control (forma y magnitud constantes) en un tiempo determinado.
     .row.bg-c10.mb-4
-      .col-12
+      .col-12(data-aos="fade-up")
         .py-4.px-5
           .row.justify-content-center
             .col-lg-8
@@ -249,13 +249,13 @@
                 img(src='@/assets/curso/tema2/img16.svg').m-auto
                 figcaption.text-center Fuente. Tomada de Ángel (2014).
     .row.align-items-center.mb-5
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         p.mb-0 El aforo de caudal por medio de volumetría se lleva a cabo en una estructura hidráulica como un grifo, tubería o canal, a partir del llenado de un volumen conocido (se utilizan baldes aforados cada litro con capacidades de 10 a 20L) en un promedio de tiempo determinado. Se debe tener especial cuidado en el momento de medición de tiempo, el cual inicia en la descarga y se detiene al retirarse de la misma (Ideam, 2007).
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img18.svg' style="width: 450px").m-auto
-    p.mb-5.text-center #[b La determinación del caudal o gasto también se puede realizar a partir de las siguientes metodologías:]
-    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    p.mb-5.text-center(data-aos="fade-down") #[b La determinación del caudal o gasto también se puede realizar a partir de las siguientes metodologías:]
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-down")
       .row(titulo="Método área y velocidad")
         .col-lg-9.mb-4.mb-lg-0
           p Para canales abiertos, se puede realizar la estimación de caudal a partir de la determinación del área de la sección transversal del canal, quebrada, zanja o río, teniendo en cuenta las siguientes consideraciones, mediante el método área y velocidad, según el Ideam (2007):

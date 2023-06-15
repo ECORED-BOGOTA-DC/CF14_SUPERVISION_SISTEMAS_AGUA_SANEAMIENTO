@@ -2,17 +2,17 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Redes de acueducto, alcantarillado e infraestructura
     .row.align-items-center
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .cajon.color-primario.p-4.mb-3
           p.mb-0 La calidad de agua no solo depende de los procesos de potabilización, también aquellos relacionados con protocolos de vertimientos en las diferentes ciudades; por consiguiente, para que los diferentes tipos de aguas no se mezclen entre sí, se diseñaron desde los tiempos romanos sistemas de alcantarillado que separan el agua de acuerdo con el uso que se le ha dado, evitando así la contaminación cruzada.
         p Estos sistemas han venido evolucionando desde aquellos tiempos hasta contar hoy con redes de acueducto modernas, automáticas, al igual que sistemas de alcantarillado que atienden las demandas de grandes ciudades. 
         p En Colombia, el Reglamento técnico para el sector de agua potable y saneamiento básico (RAS), establece los protocolos que se deben tener en cuenta para definir los sistemas de alcantarillado y las características de las infraestructuras.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/img1.png', style="width: 530px").m-auto
     Separador
@@ -20,15 +20,15 @@
     .titulo-segundo.color-acento-contenido
       h2 3.1 Normativa
     .row.justify-content-center
-      .col-12
+      .col-12(data-aos="fade-down")
         figure
           img(src='@/assets/curso/tema3/img2.png').m-auto
-      .col-lg-10.bg-p1
+      .col-lg-10.bg-p1(data-aos="fade-right")
         .p-4
           p.mb-0 Conforme al cumplimiento de la constitución política de Colombia en su Artículo 78, en el cual se establece que “#[i la ley regulará el control de calidad de bienes y servicios  ofrecidos y prestados a la comunidad]”, en su momento la Comisión de Regulación de Agua potable y saneamiento básico (CRA) solicitó al Ministerio de Desarrollo Económico (hoy Ministerio de Vivienda, Ciudad y Territorio), definir los requisitos técnicos para la prestación de servicios de agua potable y saneamiento básico con calidad, en relación con los aspectos relacionados con obras, procedimientos y actividades objeto de sus competencias; lo anterior amparado también en el marco de la ley 142 (1994) en relación al régimen de los servicios públicos domiciliarios, por lo cual se expidió la Resolución 1096 de 2000, “por la cual se adopta el Reglamento técnico para el sector de agua potable y saneamiento básico (RAS)” y los ajustes contemplados bajo la Resolución 330 (2017).
-    p.mb-5 La aplicación del RAS está dirigida a entes territoriales, entes de vigilancia y control, los prestadores de servicios públicos (acueducto, alcantarillado y aseo), y otras del sector, así como a los diseñadores, constructores, operadores, sean personas naturales o jurídicas que estén relacionadas. La consulta de los criterios unificados para el territorio nacional en el RAS está agrupada de la siguiente manera:
+    p.mb-5(data-aos="fade-left") La aplicación del RAS está dirigida a entes territoriales, entes de vigilancia y control, los prestadores de servicios públicos (acueducto, alcantarillado y aseo), y otras del sector, así como a los diseñadores, constructores, operadores, sean personas naturales o jurídicas que estén relacionadas. La consulta de los criterios unificados para el territorio nacional en el RAS está agrupada de la siguiente manera:
     .row.justify-content-center
-      .col-lg-10.bg-c11.shadow
+      .col-lg-10.bg-c11.shadow(data-aos="fade-down")
         .p-4
           .row.align-items-center
             .col-lg-4.mb-4.mb-lg-0
@@ -70,9 +70,9 @@
     #t_3_2
     .titulo-segundo.color-acento-contenido
       h2 3.2 Entidades de vigilancia y sus funciones de control de calidad del agua potable
-    p.mb-5 En Colombia existen entidades del orden nacional, regional y local con diferentes competencias ambientales, normatividad, protocolos y estándares relacionados con el recurso hídrico, esencialmente las funciones y entidades las podrá conocer a mayor profundidad a través del video que se dispone a continuación:
+    p.mb-5(data-aos="fade-right") En Colombia existen entidades del orden nacional, regional y local con diferentes competencias ambientales, normatividad, protocolos y estándares relacionados con el recurso hídrico, esencialmente las funciones y entidades las podrá conocer a mayor profundidad a través del video que se dispone a continuación:
     .row.bg-c10
-      .col-12
+      .col-12(data-aos="fade-down")
         .px-5
           figure
             .video
@@ -81,18 +81,18 @@
     #t_3_3
     .titulo-segundo.color-acento-contenido
       h2 3.3 Sistemas de abastecimiento
-    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img3.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Los sistemas de tratamiento son un conjunto de actividades y procesos unitarios definidos como reacciones químicas y biológicas (por ejemplo, la coagulación), así como operaciones unitarias entendidas como fenómenos físicos (por ejemplo, la decantación), como menciona García (2012), que ocurren de manera organizada para mejorar las condiciones de calidad del agua respecto a su entrada (afluente) para distribuirse a una población determinada (efluente).
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       .col-auto.bg-c8.px-4.py-3
         h3.text-white.mb-0 Fuentes de contaminación
-    p Las problemáticas en los sistemas de abastecimiento están asociadas a factores naturales y de origen antrópico, tales como:
+    p(data-aos="fade-up") Las problemáticas en los sistemas de abastecimiento están asociadas a factores naturales y de origen antrópico, tales como:
     .row.align-items-center.mb-5
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         ul.lista-ul--separador
           li.d-flex
             i.fas.fa-check-circle(style="color: #FFA031")
@@ -122,13 +122,13 @@
             i.fas.fa-check-circle(style="color: #FFA031")
             | 
             p.mb-0 Expansión urbana y hacinamiento próximo a fuentes hídricas
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/img4.png', style="width: 450px").m-auto
     .row.justify-content-center.mb-5
       .col-lg-10
         .row.align-items-center
-          .col-lg-8.mb-4.mb-lg-0
+          .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
             .bloque-texto-d.color-secundario.p-4
               .bloque-texto-d__texto.mb-2
                 i.fas.fa-quote-left
@@ -136,22 +136,22 @@
                 i.fas.fa-quote-right
               .bloque-texto-d__autor 
                 .h5.mb-0 IDEAM, 2018
-          .col-lg-4
+          .col-lg-4(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema3/img2.svg', style="width: 250px").m-auto
     .row.bg-c10.mb-5
-      .col-12
+      .col-12(data-aos="fade-down")
         .px-5
           p.mb-4 La deficiencia en los sistemas de abastecimiento de agua y tratamiento de los vertimientos como mecanismo de control de la contaminación en las fuentes hídricas también está relacionado con enfermedades de transmisión vía oral y cutáneo-mucosas, como lo menciona el Centro Panamericano de Ingeniería Sanitaria y Ciencias del Ambiente- OPS/ CEPIS (2002), tales como:
           figure
             img(src='@/assets/curso/tema3/img3.svg', style="width: 850px").m-auto
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       .col-auto.bg-c8.px-4.py-3
         h3.text-white.mb-0 Funcionamiento y operación
-    p El programa de mantenimiento de cada una de las etapas debe ser de acuerdo con las condiciones de operación del sistema de tratamiento y abastecimiento.
-    p.mb-4 Con el fin de garantizar el suministro permanente y control de calidad, las Plantas de Tratamiento de Agua Potable (PTAP) tendrán en cuenta las siguientes consideraciones enmarcadas en los Artículos 99 y 122 de la Resolución 330 (2017):
+    p(data-aos="fade-down") El programa de mantenimiento de cada una de las etapas debe ser de acuerdo con las condiciones de operación del sistema de tratamiento y abastecimiento.
+    p.mb-4(data-aos="fade-down") Con el fin de garantizar el suministro permanente y control de calidad, las Plantas de Tratamiento de Agua Potable (PTAP) tendrán en cuenta las siguientes consideraciones enmarcadas en los Artículos 99 y 122 de la Resolución 330 (2017):
     .row.justify-content-center.mb-5
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         .row.align-items-center
           .col-lg-8.mb-4.mb-lg-0
             ol.lista-ol--cuadro
@@ -186,11 +186,11 @@
           .col-lg-4
             figure
               img(src='@/assets/curso/tema3/img5.png', style="width: 450px").m-auto
-    .row.mb-4
+    .row.mb-4(data-aos="fade-right")
       .col-auto.bg-c8.px-4.py-3
         h3.text-white.mb-0 Estructuras
-    p.mb-5 El sistema de potabilización comprende una serie de procesos, etapas, actividades y operaciones unitarias, las cuales se describen a continuación.
-    LineaTiempoD.color-acento-contenido
+    p.mb-5(data-aos="fade-down") El sistema de potabilización comprende una serie de procesos, etapas, actividades y operaciones unitarias, las cuales se describen a continuación.
+    LineaTiempoD.color-acento-contenido(data-aos="fade-left")
       .row(numero="1" titulo="Bocatoma")
         .col-12
           p.mb-0 Estructura hidráulica que permite la conducción del agua desde la fuente hasta la planta de tratamiento correspondiente. De acuerdo con su colocación, las bocatomas para fuentes superficiales pueden ser (Capítulo 2, Artículo 54): laterales, sumergidas, mixtas, en dique o flotante con elevación mecánica (RAS, 2017).
