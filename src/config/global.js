@@ -40,28 +40,28 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Reflexión sobre la importancia del agua',
+        titulo: 'Introducción',
         desarrolloContenidos: true,
       },
 
       {
         nombreRuta: 'tema2',
-        numero: '2',
+        numero: '1',
         titulo: 'Fundamentos básicos de hidráulica e hidrología',
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '2.1',
+            numero: '1.1',
             titulo: 'Redes de agua',
             hash: 't_2_1',
           },
           {
-            numero: '2.2',
+            numero: '1.2',
             titulo: 'Verificación de tuberías',
             hash: 't_2_2',
           },
           {
-            numero: '2.3',
+            numero: '1.3',
             titulo: 'Hidráulica básica',
             hash: 't_2_3',
           },
@@ -69,23 +69,23 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        numero: '3',
+        numero: '2',
         titulo: 'Redes de acueducto, alcantarillado e infraestructura',
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '3.1',
+            numero: '2.1',
             titulo: 'Normativa',
             hash: 't_3_1',
           },
           {
-            numero: '3.2',
+            numero: '2.2',
             titulo:
               'Entidades de vigilancia y sus funciones de control de calidad del agua potable',
             hash: 't_3_2',
           },
           {
-            numero: '3.3',
+            numero: '2.3',
             titulo: 'Sistemas de abastecimiento',
             hash: 't_3_3',
           },
@@ -93,22 +93,22 @@ export default {
       },
       {
         nombreRuta: 'tema4',
-        numero: '4',
+        numero: '3',
         titulo: 'Vigilancia del sistema de acueducto',
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '4.1',
+            numero: '3.1',
             titulo: 'Parámetros de análisis de agua <i>in situ</i>',
             hash: 't_4_1',
           },
           {
-            numero: '4.2',
+            numero: '3.2',
             titulo: 'Índices de calidad del agua (IRCA)',
             hash: 't_4_2',
           },
           {
-            numero: '4.3',
+            numero: '3.3',
             titulo:
               'Puntos de muestreo de calidad de agua en redes de distribución',
             hash: 't_4_3',
@@ -147,7 +147,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/material.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -382,16 +382,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patrica Aristizabal Gutiérrez',
-          cargo: 'Líder ecosistema de recursos educativos digitales (RED)',
-          centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
+          centro: 'Dirección General',
         },
         {
-          nombre: 'Liliana Victoria Morales Gualdron',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -435,13 +434,25 @@ export default {
           cargo: 'Acompañamiento pedagógico',
           centro: 'Centro Agropecuario La Granja - Regional Tolima',
         },
+        {
+          nombre: 'Gloria Amparo López Escudero',
+          cargo: 'Adecuación instruccional',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
       ],
     },
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Eulises Orduz',
+          nombre: 'Eulises Orduz Amézquita',
           cargo: 'Diseñador web',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
@@ -453,9 +464,22 @@ export default {
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -463,14 +487,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos educativos digitales',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo: 'Validación de recursos educativos digitales',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },

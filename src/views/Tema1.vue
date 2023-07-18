@@ -5,11 +5,11 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Reflexión sobre la importancia del agua
+      h1 Introducción
     .row.align-items-center
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema1/img1.png' style="width: 470px" alt='Texto que describa la imagen').m-auto
+          img(src='@/assets/curso/tema1/img1.png' style="width: 470px" alt='').m-auto
       .col-lg-7(data-aos="fade-left")
         p El día mundial del agua se celebra el 22 de marzo, como una oportunidad para reflexionar acerca de la importancia de este líquido vital. En Colombia, existe una gran oferta hídrica derivada de nuestros ecosistemas de páramo que alimentan en todo el territorio nacional a los ríos, humedales, lagos y lagunas.  El suministro de agua potable a una población determinada en un territorio permite el desarrollo de actividades domésticas, industriales, agropecuarias, comerciales y de servicios. El acceso a este preciado líquido en las condiciones adecuadas garantiza también la prevención de múltiples enfermedades relacionadas con la deficiencia en los sistemas de agua potable y saneamiento básico en algunas regiones en Colombia y el mundo.
         .cajon.color-primario.p-4

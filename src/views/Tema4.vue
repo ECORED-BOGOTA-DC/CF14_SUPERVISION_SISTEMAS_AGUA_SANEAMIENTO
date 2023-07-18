@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
-        span 4
+        span 3
       h1 Vigilancia del sistema de acueducto
     .row.justify-content-center
       .col-12(data-aos="fade-right")
@@ -16,7 +16,7 @@
     Separador
     #t_4_1
     .titulo-segundo.color-acento-contenido
-      h2 4.1 Parámetros de análisis de agua #[i in situ]
+      h2 3.1 Parámetros de análisis de agua #[i in situ]
     p.mb-5(data-aos="fade-down") La vigilancia del sistema de abastecimiento requiere el monitoreo de los siguientes parámetros como mínimo.
     .row.mb-4(data-aos="fade-right")
       .col-auto.bg-c8.px-4.py-3
@@ -35,7 +35,7 @@
         ImagenInfografica.color-primario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema4/img1.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema4/img1.svg', alt='¿Qué se verifica? y ¿Cuál es su límite?')
           .tarjeta.color-acento-botones.p-3(x="40%" y="50%" numero="+")
             p.mb-0 En este caso, lo que sería objeto de verificación es el llamado cloro residual, que de acuerdo con la Resolución 2115 (2007) es aquella porción que queda en el agua después de un período de contacto definido, que reacciona química y biológicamente como ácido hipocloroso o como ion hipoclorito.
           .tarjeta.color-acento-botones.p-3(x="92%" y="50%" numero="+")
@@ -69,7 +69,7 @@
                 p.mb-0 #[b Figura 3]
                 p.mb-0 Comportamiento del cloro en la desinfección 
               figure.mb-4
-                img(src='@/assets/curso/tema4/img3.svg' style="width: 950px").m-auto
+                img(src='@/assets/curso/tema4/img3.svg', style="width: 950px", alt="En eje x el hipoclorito de manera ascendente de 4 a 11 y en eje y ácido hipocloroso en multiplos de 10 llegando a 100. Curva decreciente.").m-auto
                 figcaption.text-center.mt-3 Fuente. Tomada de Asociación española de abastecimiento de agua y saneamiento (n.d.).
               .cajon.color-secundario.p-4
                 p.mb-0 De acuerdo con el marco normativo, Resolución 2115 (2007), en su Artículo 4, un rango de pH entre 6.5 y 9 para el agua de consumo humano. Si este valor no se encuentra entre este rango, puede reflejar un riesgo tanto para el efecto bactericida del cloro, como para los seres humanos.
@@ -116,7 +116,7 @@
     Separador
     #t_4_2
     .titulo-segundo.color-acento-contenido
-      h2 4.2 Índices de calidad del agua (IRCA)
+      h2 3.2 Índices de calidad del agua (IRCA)
     p.mb-5(data-aos="fade-down") Es aquel que contempla el puntaje de riesgo en relación con la evaluación cuantitativa de parámetros físicos, químicos y microbiológicos, de acuerdo con los niveles máximos permitidos según la norma, es decir, un IRCA de 100 puntos determina un incumplimiento a los estándares de calidad, como se muestra a continuación:
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-right")
@@ -247,13 +247,13 @@
     Separador
     #t_4_3
     .titulo-segundo.color-acento-contenido
-      h2 4.3 Puntos de muestreo de calidad de agua en redes de distribución
+      h2 3.3 Puntos de muestreo de calidad de agua en redes de distribución
     p(data-aos="fade-down") Los puntos de muestreo son concertados entre las empresas prestadoras de servicios públicos y la autoridad sanitaria en los lugares definidos dentro del sistema de suministro, determinando las frecuencias y número de muestras requeridas para los respectivos análisis físicos, químicos y microbiológicos, según lo establecido en la Resolución 2115 (2007), en sus Artículos 24 al 27 y 29 al 30 (Instituto Nacional de Salud, 2011).
     p.mb-5(data-aos="fade-down") Los criterios para establecer un punto de muestreo para la vigilancia, por parte de la autoridad sanitaria, a la calidad del agua en la red de distribución de acuerdo con la Resolución 811 (2008), para puntos fijos de muestreo, son:
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10
         figure
-          img(src='@/assets/curso/tema4/img8.svg').m-auto
+          img(src='@/assets/curso/tema4/img8.svg', alt="a) El punto más alejado de la red de distribución. b) El punto donde termina la red de conducción para dar paso a la red de distribución. c) A la salida de la red de distribución, en estructuras con algún tipo de riesgo para la calidad del agua.").m-auto
     .row.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -430,7 +430,7 @@
     h4.txt-c1(data-aos="fade-down") Registro de datos en campo
     p.mb-4(data-aos="fade-right") Un concepto importante es el de cadena de custodia y se define como el proceso de control y seguimiento de la muestra, desde el momento de la recolección de esta hasta la entrega de resultados por parte del laboratorio. Para evitar rechazos en la recepción de la muestra, la información debe ser clara en todas sus etapas como lo indica el INS (2011), esto es:
     figure(data-aos="fade-left")
-      img(src='@/assets/curso/tema4/img12.svg').m-auto
+      img(src='@/assets/curso/tema4/img12.svg', alt="1) Las muestras deben estar debidamente rotuladas o identificadas de forma clara y legible. 2) La información detallada en los envases dependerá del tipo de análisis a realizar, como mínimo deberá tener: fecha, hora, punto de muestreo y tipo de análisis. 3) El acta de toma de muestra registra la información en forma más detallada: localización del punto, fecha, hora, resultado de mediciones in situ, observaciones adicionales al momento del muestreo.").m-auto
 
 </template>
 

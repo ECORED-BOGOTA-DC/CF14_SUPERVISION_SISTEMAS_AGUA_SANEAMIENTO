@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
-        span 2
+        span 1
       h1 Fundamentos básicos de hidráulica e hidrología
     .row.align-items-center
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
@@ -17,7 +17,7 @@
     Separador
     #t_2_1
     .titulo-segundo.color-acento-contenido
-      h2 2.1 Redes de agua
+      h2 1.1 Redes de agua
     .row.mb-4
       .col-12
         .px-5
@@ -76,7 +76,7 @@
     Separador
     #t_2_2
     .titulo-segundo.color-acento-contenido
-      h2 2.2 Verificación de tuberías
+      h2 1.2 Verificación de tuberías
     p(data-aos="fade-down") Canalizar o conducir el agua entre diferentes puntos requiere establecer la definición del tipo de dispositivos y accesorios destinados para tal fin. 
     p.mb-5(data-aos="fade-down") Según el concepto emitido por Orellana. (2005), las tuberías son dispositivos que permiten la conducción y transporte de agua entre unos puntos determinados teniendo en cuenta el perfil del terreno. De acuerdo con el Ministerio de Ambiente, Vivienda, Ciudad y Territorio, en su documento RAS, en el Título B, los factores a tener en cuenta para elección del sistema de tuberías son:
     .row(data-aos="fade-right")
@@ -175,11 +175,11 @@
           .row.justify-content-center
             .col-lg-8.mb-4
               figure
-                img(src='@/assets/curso/tema2/img14.svg').m-auto
+                img(src='@/assets/curso/tema2/img14.svg', alt="Muestra las características de los materiales, más comunes: a) Livianos y de fácil manejo b) Resistencia a la corrosión c) Resistencia a cargar externas d) Estabilidad estructural").m-auto
             p.text-center.mb-4 #[b En el caso de los sistemas de alcantarillado, los materiales que se pueden utilizar de acuerdo con el RAS 2000, Título D, son:]
             .col-lg-10
               figure
-                img(src='@/assets/curso/tema2/img15.svg').m-auto
+                img(src='@/assets/curso/tema2/img15.svg', alt="1. Arcilla vitrificada. 2. Polipropileno (PP). 3. poliéster reforzado con fibra de vidrio (GRP). 4. Resina termoestable reforzada. 5. Polietileno (PE). 6. Concreto reforzado. 7. Polivinilo de cloruro (PVC). 8. Hierro dúctil (HD). 9. Acero").m-auto
     p(data-aos="fade-down") Dependiendo del tipo de material, edad y condiciones del sistema, se generará una resistencia o fricción en la circulación del agua por el ducto. Este se conoce como coeficiente de rugosidad y se puede consultar en las especificaciones técnicas del mismo (Comisión Nacional del Agua, 2007).
     p.mb-5(data-aos="fade-down") Las tuberías de alcantarillado no deben estar en la misma zanja de las tuberías del acueducto y su cota clave siempre debe estar por debajo de la cota batea de la tubería de acueducto, conforme a lo dispuesto en el Artículo 138 de la Resolución 330 (2017).
     .row.mb-4(data-aos="fade-right")
@@ -210,7 +210,7 @@
     Separador
     #t_2_3
     .titulo-segundo.color-acento-contenido
-      h2 2.3 Hidráulica básica
+      h2 1.3 Hidráulica básica
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         p.mb-3 La hidráulica es una rama de la física que se encarga de estudiar el comportamiento de los fluidos en movimiento (hidrodinámica) o estáticos (hidrostática).
@@ -223,10 +223,10 @@
     .row.bg-c9.mb-5(data-aos="fade-down")
       .col-12.px-0.d-none.d-lg-block
         figure
-          img(src='@/assets/curso/tema2/img17.png').m-auto
+          img(src='@/assets/curso/tema2/img17.png', alt="a) Volumen: es el espacio que ocupa un cuerpo, las unidades para expresarlo pueden ser de acuerdo con el sistema internacional (m3, mL, L), cegesimal (cm3) o el sistema inglés (pie3, galón). b) Caudal o gasto: es la relación entre cantidad de agua que fluye a través de una sección y el tiempo. c) Densidad: es la relación entre la masa y el volumen (𝜌 = 𝑚𝑣), expresada como Kg/m3 o g/cm3, por ejemplo. d) Capilaridad: capacidad de ascenso o descenso de un líquido por un tubo formando un menisco cóncavo o convexo dependiendo de las características de este. e) Viscosidad: resistencia que experimenta un líquido a fluir. f) Adhesión: fuerzas de atracción entre moléculas de diferentes sustancias. g) Cohesión: fuerza de atracción entre moléculas de la misma sustancia. h) Presión: es la relación entre la fuerza (de un gas o líquido) ejercida en un área o la superficie. En el sistema internacional se expresa en N/m2 (newton sobre metro cuadrado), es decir, un Pascal (Pa).").m-auto
       .col-12.px-0.d-block.d-lg-none
         figure
-          img(src='@/assets/curso/tema2/img17m.png').m-auto
+          img(src='@/assets/curso/tema2/img17m.png', alt="a) Volumen: es el espacio que ocupa un cuerpo, las unidades para expresarlo pueden ser de acuerdo con el sistema internacional (m3, mL, L), cegesimal (cm3) o el sistema inglés (pie3, galón). b) Caudal o gasto: es la relación entre cantidad de agua que fluye a través de una sección y el tiempo. c) Densidad: es la relación entre la masa y el volumen (𝜌 = 𝑚𝑣), expresada como Kg/m3 o g/cm3, por ejemplo. d) Capilaridad: capacidad de ascenso o descenso de un líquido por un tubo formando un menisco cóncavo o convexo dependiendo de las características de este. e) Viscosidad: resistencia que experimenta un líquido a fluir. f) Adhesión: fuerzas de atracción entre moléculas de diferentes sustancias. g) Cohesión: fuerza de atracción entre moléculas de la misma sustancia. h) Presión: es la relación entre la fuerza (de un gas o líquido) ejercida en un área o la superficie. En el sistema internacional se expresa en N/m2 (newton sobre metro cuadrado), es decir, un Pascal (Pa).").m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.bg-c8.px-4.py-3
         h3.text-white.mb-0 Aforo de caudal
@@ -246,14 +246,14 @@
                 p.mb-0 #[b Figura 1]
                 p.mb-0 Conservación de la masa en caudal o gasto (G)
               figure
-                img(src='@/assets/curso/tema2/img16.svg').m-auto
+                img(src='@/assets/curso/tema2/img16.svg', alt="Muestra imagen evaluación de continuidad donde muestra sección 1 parte ancha y reduce forma embudo horizontal sección 2.").m-auto
                 figcaption.text-center Fuente. Tomada de Ángel (2014).
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         p.mb-0 El aforo de caudal por medio de volumetría se lleva a cabo en una estructura hidráulica como un grifo, tubería o canal, a partir del llenado de un volumen conocido (se utilizan baldes aforados cada litro con capacidades de 10 a 20L) en un promedio de tiempo determinado. Se debe tener especial cuidado en el momento de medición de tiempo, el cual inicia en la descarga y se detiene al retirarse de la misma (Ideam, 2007).
       .col-lg-4(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema2/img18.svg' style="width: 450px").m-auto
+          img(src='@/assets/curso/tema2/img18.svg', style="width: 450px", alt="Caudal(Q) = (Volumen del fluido)/Tiempo").m-auto
     p.mb-5.text-center(data-aos="fade-down") #[b La determinación del caudal o gasto también se puede realizar a partir de las siguientes metodologías:]
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-down")
       .row(titulo="Método área y velocidad")
@@ -275,7 +275,7 @@
           p Medir el ancho (W) de orilla a orilla con una cinta y dividir en verticales para la toma de las velocidades en cada punto a una profundidad H del canal correspondiente al 20 % y 80 %, con ayuda del molinete, el cual se coloca en dirección aguas arriba de la corriente. Así para cada sección.
           p Se determina el área de la sección transversal del río objeto de medición teniendo en cuenta el ancho y la profundidad. Con los anteriores datos de velocidad y área, se calcula el caudal (Q):
           figure
-            img(src='@/assets/curso/tema2/img19.svg' style="width: 350px").m-auto
+            img(src='@/assets/curso/tema2/img19.svg', style="width: 350px", alt="Caudal(Q) = Velocidad x Área").m-auto
         .col-lg-3
           figure
             img(src='@/assets/curso/tema2/img19.png' style="width: 250px").m-auto
@@ -283,7 +283,7 @@
         .col-lg-7.mb-4.mb-lg-0
           p la determinación del área se realiza de la misma manera que el método anterior, sin embargo, la medición de la velocidad se realiza con un objeto liviano y su recorrido desde el punto A al punto B, es decir, una distancia conocida en el canal y un promedio de tiempos, posterior a la toma de varias mediciones.
           figure
-            img(src='@/assets/curso/tema2/img20.svg' style="width: 280px").m-auto
+            img(src='@/assets/curso/tema2/img20.svg' style="width: 280px", alt="Velocidad =  Distancia/Tiempo").m-auto
         .col-lg-5
           figure
             img(src='@/assets/curso/tema2/img20.png' style="width: 450px").m-auto
@@ -308,7 +308,7 @@
                         td.text-center #[b Rectangular con contratación]
                         td
                           figure
-                            img(src='@/assets/curso/tema2/img21.svg' style="width: 280px").m-auto
+                            img(src='@/assets/curso/tema2/img21.svg', style="width: 280px", alt="Rectangular con contratación").m-auto
                         td
                           p.mb-0 Q = 1,83 * L * H#[sup 1,5]
                           p.mb-0 Q = caudal en m#[sup 3]/seg
@@ -320,7 +320,7 @@
                           p.mb-0.text-center #[b (cuando cae por una pared)]
                         td
                           figure
-                            img(src='@/assets/curso/tema2/img22.svg' style="width: 280px").m-auto
+                            img(src='@/assets/curso/tema2/img22.svg', style="width: 280px", alt="Rectangular sin contracción").m-auto
                         td
                           p.mb-0 Q = 3,3 * L * H#[sup 1,5]
                           p.mb-0 Q = caudal en m#[sup 3]/seg
@@ -330,7 +330,7 @@
                         td.text-center #[b Triangular]
                         td
                           figure
-                            img(src='@/assets/curso/tema2/img23.svg' style="width: 280px").m-auto
+                            img(src='@/assets/curso/tema2/img23.svg', style="width: 280px", alt="Triangular").m-auto
                         td
                           p.mb-0 #[b Φ= 90º]
                           p.mb-0 Q = 1,4 * H#[sup 5/2]
@@ -345,7 +345,7 @@
                           p.mb-0.text-center #[b Trapezoidal]
                         td
                           figure
-                            img(src='@/assets/curso/tema2/img24.svg' style="width: 280px").m-auto
+                            img(src='@/assets/curso/tema2/img24.svg', style="width: 280px", alt="Trapezoidal").m-auto
                         td
                           p Si  la  pendiente  de  los  lados tiene  una  relación  4#[sub (vertical)]/ 1#[sub (horizontal)], se aplica:
                           p.mb-0 Q = 1,859 * L * H#[sup 1,5]

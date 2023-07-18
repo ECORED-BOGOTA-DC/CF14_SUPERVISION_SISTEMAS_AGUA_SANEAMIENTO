@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
-        span 3
+        span 2
       h1 Redes de acueducto, alcantarillado e infraestructura
     .row.align-items-center
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
@@ -18,7 +18,7 @@
     Separador
     #t_3_1
     .titulo-segundo.color-acento-contenido
-      h2 3.1 Normativa
+      h2 2.1 Normativa
     .row.justify-content-center
       .col-12(data-aos="fade-down")
         figure
@@ -69,18 +69,18 @@
     Separador
     #t_3_2
     .titulo-segundo.color-acento-contenido
-      h2 3.2 Entidades de vigilancia y sus funciones de control de calidad del agua potable
+      h2 2.2 Entidades de vigilancia y sus funciones de control de calidad del agua potable
     p.mb-5(data-aos="fade-right") En Colombia existen entidades del orden nacional, regional y local con diferentes competencias ambientales, normatividad, protocolos y estándares relacionados con el recurso hídrico, esencialmente las funciones y entidades las podrá conocer a mayor profundidad a través del video que se dispone a continuación:
     .row.bg-c10
       .col-12(data-aos="fade-down")
         .px-5
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/yD5fkjQoaQg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
     #t_3_3
     .titulo-segundo.color-acento-contenido
-      h2 3.3 Sistemas de abastecimiento
+      h2 2.3 Sistemas de abastecimiento
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img3.png')})`}"
@@ -144,7 +144,7 @@
         .px-5
           p.mb-4 La deficiencia en los sistemas de abastecimiento de agua y tratamiento de los vertimientos como mecanismo de control de la contaminación en las fuentes hídricas también está relacionado con enfermedades de transmisión vía oral y cutáneo-mucosas, como lo menciona el Centro Panamericano de Ingeniería Sanitaria y Ciencias del Ambiente- OPS/ CEPIS (2002), tales como:
           figure
-            img(src='@/assets/curso/tema3/img3.svg', style="width: 850px").m-auto
+            img(src='@/assets/curso/tema3/img3.svg', style="width: 850px", alt="Muestra enfermedades de transmisión vía oral y cutáneo-mucosas por deficiencia en sistemas de abastecimiento de agua y tratamiento de los vertimientos tales como: hepatitis, enfermedades parasitarias, fiebre tiroidea, disentería y cólera.").m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.bg-c8.px-4.py-3
         h3.text-white.mb-0 Funcionamiento y operación
