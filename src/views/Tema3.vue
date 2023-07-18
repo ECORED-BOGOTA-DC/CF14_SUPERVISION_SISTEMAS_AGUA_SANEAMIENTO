@@ -97,31 +97,31 @@
           li.d-flex
             i.fas.fa-check-circle(style="color: #FFA031")
             | 
-            p.mb-0 Erosión hídrica en zonas de laderas y remoción en masa
+            p.mb-0 Erosión hídrica en zonas de laderas y remoción en masa.
           li.d-flex
             i.fas.fa-check-circle(style="color: #FFA031")
             | 
-            p.mb-0 Deforestación
+            p.mb-0 Deforestación.
           li.d-flex
             i.fas.fa-check-circle(style="color: #FFA031")
             | 
-            p.mb-0 Sobrepastoreo
+            p.mb-0 Sobrepastoreo.
           li.d-flex
             i.fas.fa-check-circle(style="color: #FFA031")
             | 
-            p.mb-0 Agricultura intensiva
+            p.mb-0 Agricultura intensiva.
           li.d-flex
             i.fas.fa-check-circle(style="color: #FFA031")
             | 
-            p.mb-0 Tala incontrolada
+            p.mb-0 Tala incontrolada.
           li.d-flex
             i.fas.fa-check-circle(style="color: #FFA031")
             | 
-            p.mb-0 Inadecuado manejo de vertimientos y manejo de residuos sólidos
+            p.mb-0 Inadecuado manejo de vertimientos y manejo de residuos sólidos.
           li.d-flex
             i.fas.fa-check-circle(style="color: #FFA031")
             | 
-            p.mb-0 Expansión urbana y hacinamiento próximo a fuentes hídricas
+            p.mb-0 Expansión urbana y hacinamiento próximo a fuentes hídricas.
       .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/img4.png', style="width: 450px").m-auto
@@ -132,7 +132,7 @@
             .bloque-texto-d.color-secundario.p-4
               .bloque-texto-d__texto.mb-2
                 i.fas.fa-quote-left
-                p.text-regular En Colombia según datos del reporte de avance del Estudio Nacional del Agua (ENA), los departamentos que concentran alrededor del 50 % de sus municipios con problemas de abastecimiento son La Guajira, Magdalena, Cesar, Tolima, Bolívar, Quindío, Santander, San Andrés y Providencia y Valle del Cauca, esto en razón a la disminución de la precipitación, poca oferta hídrica en el territorio e insuficiencia en los sistemas de abastecimiento.
+                p.text-regular En Colombia, según datos del reporte de avance del Estudio Nacional del Agua (ENA), los departamentos que concentran alrededor del 50 % de sus municipios con problemas de abastecimiento son La Guajira, Magdalena, Cesar, Tolima, Bolívar, Quindío, Santander, San Andrés y Providencia y Valle del Cauca, esto en razón a la disminución de la precipitación, poca oferta hídrica en el territorio e insuficiencia en los sistemas de abastecimiento.
                 i.fas.fa-quote-right
               .bloque-texto-d__autor 
                 .h5.mb-0 IDEAM, 2018
@@ -158,31 +158,31 @@
               li.d-flex
                 .lista-ol--cuadro__vineta
                   span a
-                | Capacidad de producción que cubra el Caudal Máximo Diario (QMD)
+                | Capacidad de producción que cubra el Caudal Máximo Diario (QMD).
               li.d-flex
                 .lista-ol--cuadro__vineta
                   span b
-                | Acceso permanente a energía eléctrica y evaluación de fuentes alternas
+                | Acceso permanente a energía eléctrica y evaluación de fuentes alternas.
               li.d-flex
                 .lista-ol--cuadro__vineta
                   span c
-                | Condiciones de accesibilidad a la planta
+                | Condiciones de accesibilidad a la planta.
               li.d-flex
                 .lista-ol--cuadro__vineta
                   span d
-                | Priorizar en lo posible condiciones de operación de la planta por gravedad
+                | Priorizar en lo posible condiciones de operación de la planta por gravedad.
               li.d-flex
                 .lista-ol--cuadro__vineta
                   span e
-                | Áreas suficientes para el manejo y tratamiento de lodos generados
+                | Áreas suficientes para el manejo y tratamiento de lodos generados.
               li.d-flex
                 .lista-ol--cuadro__vineta
                   span f
-                | Monitoreo en el afluente (entrada) y el efluente (salida) de todas las unidades de la PTAP: caudal, turbiedad, color, temperatura, pH y conductividad
+                | Monitoreo en el afluente (entrada) y el efluente (salida) de todas las unidades de la PTAP: caudal, turbiedad, color, temperatura, pH y conductividad.
               li.d-flex
                 .lista-ol--cuadro__vineta
                   span g
-                | A la salida del sistema de tratamiento se deberá medir el residual del desinfectante
+                | A la salida del sistema de tratamiento se deberá medir el residual del desinfectante.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema3/img5.png', style="width: 450px").m-auto
@@ -284,8 +284,7 @@
           .row.justify-content-center
             .col-lg-6
               .titulo-sexto.color-acento-botones.mb-4
-                p.mb-0 #[b Figura 2]
-                p.mb-0 Sedimentadores en planta de tratamiento de agua
+                p.mb-0 #[b Figura 2]. Sedimentadores en planta de tratamiento de agua
               figure
                 img(src='@/assets/curso/tema3/img10.png' style="width: 550px").m-auto
       .row(numero="9" titulo="Filtración")

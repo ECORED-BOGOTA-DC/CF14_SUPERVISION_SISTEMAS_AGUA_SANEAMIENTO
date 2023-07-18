@@ -30,7 +30,7 @@
           p.mb-0 De acuerdo con la Organización Mundial de la Salud (OMS) y Organización Panamericana de la Salud (OPS) (2009), en su documento “medición de cloro residual en el agua”,  la última etapa de un sistema de tratamiento es la desinfección, la cual busca eliminar los microorganismos causantes de enfermedades como la fiebre tifoidea, diarrea, cólera y hepatitis entre otras, y según el Ministerio de Desarrollo Económico, en el Reglamento técnico para el sector de agua potable y saneamiento básico (RAS), en su  Título A, relacionado con los aspectos generales de los sistemas de agua potable y saneamiento básico, esta fase es obligatoria para todos los niveles de complejidad y sistemas de tratamiento.
     .row.align-items-center.mb-4
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-down")
-        p El cloro gaseoso Cl2 y los compuestos de cloro (hipoclorito de sodio NaClO o hipoclorito de calcio Ca(ClO)2, por ejemplo), son usados de manera muy frecuente en los procesos de desinfección, por su efecto residual en la acción bactericida. Usualmente se da mayor uso del ácido hipocloroso (HOCl) que del ion hipoclorito (OCl-) (Martínez, 2001), sin embargo, sea cual sea el insumo químico utilizado, se debe verificar que su concentración sea la adecuada, que no exceda ni se encuentre por debajo de lo requerido, lo que implica actividades de verificación y supervisión de este insumo. Veamos de qué se trata:
+        p El cloro gaseoso Cl2 y los compuestos de cloro (hipoclorito de sodio, NaClO o hipoclorito de calcio Ca(ClO)2, por ejemplo), son usados de manera muy frecuente en los procesos de desinfección, por su efecto residual en la acción bactericida. Usualmente, se da mayor uso del ácido hipocloroso (HOCl) que del ion hipoclorito (OCl-) (Martínez, 2001), sin embargo, sea cual sea el insumo químico utilizado, se debe verificar que su concentración sea la adecuada, que no exceda ni se encuentre por debajo de lo requerido, lo que implica actividades de verificación y supervisión de este insumo. Veamos de qué se trata:
       .col-lg-4(data-aos="fade-left")
         ImagenInfografica.color-primario
           template(v-slot:imagen)
@@ -66,8 +66,7 @@
           .row.justify-content-center
             .col-lg-8
               .titulo-sexto.color-acento-botones.mb-4
-                p.mb-0 #[b Figura 3]
-                p.mb-0 Comportamiento del cloro en la desinfección 
+                p.mb-0 #[b Figura 3]. Comportamiento del cloro en la desinfección 
               figure.mb-4
                 img(src='@/assets/curso/tema4/img3.svg', style="width: 950px", alt="En eje x el hipoclorito de manera ascendente de 4 a 11 y en eje y ácido hipocloroso en multiplos de 10 llegando a 100. Curva decreciente.").m-auto
                 figcaption.text-center.mt-3 Fuente. Tomada de Asociación española de abastecimiento de agua y saneamiento (n.d.).
@@ -79,7 +78,7 @@
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p Ocurre cuando hay partículas en suspensión presentes en el agua, las cuales se visualizan por un cambio visual del agua, generalmente por materia orgánica que puede contener microorganismos que generan un tipo de riesgo en el agua para consumo, como es el caso de favorecer el crecimiento y presencia de la Giardia y el Cryptosporidium, cuya presencia puede disparar el puntaje de riesgo a 100, de acuerdo con la Resolución 2115 (2007), Artículo 13; razón por la cual el máximo permisible es 2 Unidades Nefelométricas de Turbiedad (UNT).
-        .cajon.color-secundario.p-4
+        .cajon.color-primario.p-4
           p.mb-0 El incremento en los valores de la turbiedad está asociado con una incorrecta operación y mantenimiento de los filtros, así como en los procesos de coagulación. Por ello, se debe hacer el análisis en diferentes unidades de tratamiento de los sistemas de agua (OPS y CEPIS, 2002).
       .col-lg-5(data-aos="fade-left")
         figure
@@ -121,8 +120,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-right")
         .titulo-sexto.color-acento-botones.mb-4
-            p.mb-0 #[b Tabla 2]
-            p.mb-0 Clasificación y nivel de riesgo IRCA
+            p.mb-0 #[b Tabla 2]. Clasificación y nivel de riesgo IRCA
         .tabla-a.color-secundario
           table
             caption.text-center Fuente: Tomada de Resolución 2115 de 2007.
@@ -288,14 +286,12 @@
     .row.justify-content-center.mb-5
       .col-lg-5.m-2(data-aos="fade-right")
         .titulo-sexto.color-acento-botones.mb-4
-          p.mb-0 #[b Figura 4]
-          p.mb-0 Punto de toma de muestra
+          p.mb-0 #[b Figura 4]. Punto de toma de muestra
         figure.mb-4
           img(src='@/assets/curso/tema4/img9.png' style="width: 550px").m-auto
       .col-lg-5.m-2(data-aos="fade-left")
         .titulo-sexto.color-acento-botones.mb-4
-          p.mb-0 #[b Figura 5]
-          p.mb-0 Válvula tipo bayoneta
+          p.mb-0 #[b Figura 5]. Válvula tipo bayoneta
         figure.mb-4
           img(src='@/assets/curso/tema4/img10.png' style="width: 550px").m-auto
     .row.mb-4(data-aos="fade-right")

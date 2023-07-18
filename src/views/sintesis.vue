@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 El agua potable de calidad para el consumo humano es un proceso supremamente importante dado que se deben garantizar sus condiciones óptimas siempre y para esto es importante e indispensable manejar todo el proceso, elementos, equipos y demás protocolos y normativas que se deben cumplir para la correcta operación del tratamiento de aguas en sus diversas etapas. Por esto a continuación encuentra una breve descripción de los temas vistos en este componente formativo.
+    p.mb-5 El agua potable de calidad para el consumo humano es un proceso supremamente importante dado que se deben garantizar sus condiciones óptimas, siempre y para esto es importante e indispensable manejar todo el proceso, elementos, equipos y demás protocolos y normativas que se deben cumplir para la correcta operación del tratamiento de aguas en sus diversas etapas. Por esto a continuación encuentra una breve descripción de los temas vistos en este componente formativo.
 
     .row.justify-content-center
       .col-lg-10.mb-5

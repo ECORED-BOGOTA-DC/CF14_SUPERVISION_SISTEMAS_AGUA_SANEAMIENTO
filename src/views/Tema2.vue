@@ -10,7 +10,7 @@
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p El agua es un compuesto formado por dos átomos de hidrógeno y un átomo de oxígeno, con la propiedad de disolver una gran variedad de sustancias. El ciclo del agua permite el tránsito en diferentes momentos y estados de la materia (líquido, sólido y gaseoso), para alimentar las fuentes superficiales y subterráneas, por acción de la gravedad y la radiación solar.
         .cajon.color-secundario.p-4
-          p.mb-0 El agua es captada y conducida a través de un sistema articulado de dispositivos, accesorios, equipos, procesos y procedimientos que trabajan bajo la dinámica de este fluido en ríos canales y tuberías.
+          p.mb-0 El agua es captada y conducida a través de un sistema articulado de dispositivos, accesorios, equipos, procesos y procedimientos que trabajan bajo la dinámica de este fluido en ríos, canales y tuberías.
       .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img1.png', style="width: 530px").m-auto
@@ -33,7 +33,7 @@
       .col-lg-6
         figure
           img(src='@/assets/curso/tema2/img2.svg', style="width: 770px").m-auto
-    p(data-aos="fade-right") Los esquemas de distribución cerrados consisten en la disposición de las tuberías en forma de mallas poligonales, sin ramificaciones. Por su parte, en las abiertas se configuran de manera irregular, sobre todo en asentamientos dispersos, alejados y con algunas variaciones topográficas en el terreno. Es posible que un sistema de abastecimiento cuente con una configuración de esquema mixto, es decir en unas zonas se dispone de mallas cerradas y en otras zonas ramificadas o abiertas.
+    p(data-aos="fade-right") Los esquemas de distribución cerrados consisten en la disposición de las tuberías en forma de mallas poligonales, sin ramificaciones. Por su parte, en las abiertas se configuran de manera irregular, sobre todo en asentamientos dispersos, alejados y con algunas variaciones topográficas en el terreno. Es posible que un sistema de abastecimiento cuente con una configuración de esquema mixto, es decir, en unas zonas se dispone de mallas cerradas y en otras zonas ramificadas o abiertas.
     .row.align-items-center.mb-3
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p La red de distribución de un sistema de abastecimiento de agua potable puede ser primaria o secundaria. La primera se caracteriza por ser tramos principales de tuberías de un diámetro y tamaño mayor que alimentan a las secundarias con dimensiones inferiores a la red principal. La segunda se encarga de conectar las instalaciones del usuario final a la red primaria, finalmente, las acometidas o conexiones domiciliarias conectan la red secundaria a las instalaciones del usuario.
@@ -243,8 +243,7 @@
           .row.justify-content-center
             .col-lg-8
               .titulo-sexto.color-acento-botones.mb-4
-                p.mb-0 #[b Figura 1]
-                p.mb-0 Conservación de la masa en caudal o gasto (G)
+                p.mb-0 #[b Figura 1]. Conservación de la masa en caudal o gasto (G)
               figure
                 img(src='@/assets/curso/tema2/img16.svg', alt="Muestra imagen evaluación de continuidad donde muestra sección 1 parte ancha y reduce forma embudo horizontal sección 2.").m-auto
                 figcaption.text-center Fuente. Tomada de Ángel (2014).
@@ -279,9 +278,9 @@
         .col-lg-3
           figure
             img(src='@/assets/curso/tema2/img19.png' style="width: 250px").m-auto
-      .row(titulo="Método área y velocidad")
+      .row(titulo="Método flotador")
         .col-lg-7.mb-4.mb-lg-0
-          p la determinación del área se realiza de la misma manera que el método anterior, sin embargo, la medición de la velocidad se realiza con un objeto liviano y su recorrido desde el punto A al punto B, es decir, una distancia conocida en el canal y un promedio de tiempos, posterior a la toma de varias mediciones.
+          p La determinación del área se realiza de la misma manera que el método anterior, sin embargo, la medición de la velocidad se realiza con un objeto liviano y su recorrido desde el punto A al punto B, es decir, una distancia conocida en el canal y un promedio de tiempos, posterior a la toma de varias mediciones.
           figure
             img(src='@/assets/curso/tema2/img20.svg' style="width: 280px", alt="Velocidad =  Distancia/Tiempo").m-auto
         .col-lg-5
@@ -291,8 +290,7 @@
         .col-12
           p.mb-5 Los vertederos son estructuras hidráulicas que obstruyen el flujo en un canal, generando una elevación del líquido por encima de la pared del vertedero, conocida como carga o cabeza (H) (Tabla 1).  La estimación del caudal dependerá del tipo de vertedero (geometría, contracciones, ángulos, la longitud de la cresta, principalmente) y la altura de la lámina de agua determinada en campo.
           .titulo-sexto.color-acento-botones.mb-4
-            p.mb-0 #[b Tabla 1]
-            p.mb-0 Fórmulas de acuerdo con el tipo de vertedero
+            p.mb-0 #[b Tabla 1]. Fórmulas de acuerdo con el tipo de vertedero
           .row
             .col-12.bg-white
               .p-3
