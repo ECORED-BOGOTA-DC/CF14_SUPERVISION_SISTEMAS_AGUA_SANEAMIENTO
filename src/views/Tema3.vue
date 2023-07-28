@@ -19,8 +19,8 @@
     #t_3_1
     .titulo-segundo.color-acento-contenido
       h2 2.1 Normativa
-    .row.justify-content-center
-      .col-12(data-aos="fade-down")
+    .row.justify-content-center.mb-5.mb-md-0
+      .col-12.d-none.d-sm-block(data-aos="fade-down")
         figure
           img(src='@/assets/curso/tema3/img2.png').m-auto
       .col-lg-10.bg-p1(data-aos="fade-right")

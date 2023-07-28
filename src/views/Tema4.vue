@@ -7,7 +7,7 @@
         span 3
       h1 Vigilancia del sistema de acueducto
     .row.justify-content-center
-      .col-12(data-aos="fade-right")
+      .col-12.d-none.d-sm-block(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema4/img1.png').m-auto
       .col-lg-10.bg-p1(data-aos="fade-left")
