@@ -68,7 +68,7 @@
               .titulo-sexto.color-acento-botones.mb-4
                 p.mb-0 #[b Figura 3]. Comportamiento del cloro en la desinfección 
               figure.mb-4
-                img(src='@/assets/curso/tema4/img3.svg', style="width: 950px", alt="En eje x el hipoclorito de manera ascendente de 4 a 11 y en eje y ácido hipocloroso en multiplos de 10 llegando a 100. Curva decreciente.").m-auto
+                img(src='@/assets/curso/tema4/img3.svg', style="width: 950px", alt="Muestra cuadricula con el comportamiento del cloro iniciando en eje x el hipoclorito de manera ascendente de 4 a 11 y en eje y  ácido hipocloroso en multiplos de 10 llegando a 100. Curva decreciente").m-auto
                 figcaption.text-center.mt-3 Fuente. Tomada de Asociación española de abastecimiento de agua y saneamiento (n.d.).
               .cajon.color-secundario.p-4
                 p.mb-0 De acuerdo con el marco normativo, Resolución 2115 (2007), en su Artículo 4, un rango de pH entre 6.5 y 9 para el agua de consumo humano. Si este valor no se encuentra entre este rango, puede reflejar un riesgo tanto para el efecto bactericida del cloro, como para los seres humanos.
@@ -288,12 +288,12 @@
         .titulo-sexto.color-acento-botones.mb-4
           p.mb-0 #[b Figura 4]. Punto de toma de muestra
         figure.mb-4
-          img(src='@/assets/curso/tema4/img9.png' style="width: 550px").m-auto
+          img(src='@/assets/curso/tema4/img9.png' style="width: 550px" alt="Muestra llave de agua de toma de muestra.").m-auto
       .col-lg-5.m-2(data-aos="fade-left")
         .titulo-sexto.color-acento-botones.mb-4
           p.mb-0 #[b Figura 5]. Válvula tipo bayoneta
         figure.mb-4
-          img(src='@/assets/curso/tema4/img10.png' style="width: 550px").m-auto
+          img(src='@/assets/curso/tema4/img10.png' style="width: 550px" alt="Muestra válvula tipo bayoneta.").m-auto
     .row.mb-4(data-aos="fade-right")
       .col-auto.bg-c8.px-4.py-3
         h3.text-white.mb-0 Procedimiento desinfección del punto para la toma de muestra
