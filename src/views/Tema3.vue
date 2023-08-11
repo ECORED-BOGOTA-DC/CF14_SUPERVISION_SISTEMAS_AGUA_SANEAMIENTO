@@ -135,7 +135,7 @@
                 p.text-regular En Colombia, según datos del reporte de avance del Estudio Nacional del Agua (ENA), los departamentos que concentran alrededor del 50 % de sus municipios con problemas de abastecimiento son La Guajira, Magdalena, Cesar, Tolima, Bolívar, Quindío, Santander, San Andrés y Providencia y Valle del Cauca, esto en razón a la disminución de la precipitación, poca oferta hídrica en el territorio e insuficiencia en los sistemas de abastecimiento.
                 i.fas.fa-quote-right
               .bloque-texto-d__autor 
-                .h5.mb-0 IDEAM, 2018
+                .h5.mb-0 IDEAM, (2018)
           .col-lg-4(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema3/img2.svg', style="width: 250px").m-auto
@@ -268,7 +268,7 @@
             img(src='@/assets/curso/tema3/img7.png', style="width: 450px").m-auto
       .row(numero="6" titulo="Coagulación")
         .col-lg-8.mb-4.mb-lg-0
-          p También conocida como mezcla rápida (por mecanismos hidráulicos o mecánicos). Es un proceso unitario químico, en el cual se debe garantizar la mezcla homogénea del coagulante en el agua, de acuerdo con los ensayos de tratabilidad (prueba de jarras) con la dosis óptima del coagulante y/o auxiliares de coagulación. Las condiciones de coagulación útiles para verificar una correcta operación de la planta varían de acuerdo con el tipo de agua a tratar que puede fluctuar en el año (por ejemplo: turbidez, pH, temperatura) y otros aspectos como el tipo y cantidad de coagulante, así como el mecanismo de mezcla, que puede ser hidráulico, como la canaleta Parshall, o mecánico (CEPIS, 2002).
+          p También conocida como mezcla rápida (por mecanismos hidráulicos o mecánicos). Es un proceso unitario químico, en el cual se debe garantizar la mezcla homogénea del coagulante en el agua, de acuerdo con los ensayos de tratabilidad (prueba de jarras) con la dosis óptima del coagulante y/o auxiliares de coagulación. Las condiciones de coagulación útiles para verificar una correcta operación de la planta varían de acuerdo con el tipo de agua a tratar que puede fluctuar en el año (por ejemplo: turbidez, pH, temperatura) y otros aspectos como el tipo y cantidad de coagulante, así como el mecanismo de mezcla, que puede ser hidráulico, como la canaleta #[i Parshall], o mecánico (CEPIS, 2002).
         .col-lg-4
           figure
             img(src='@/assets/curso/tema3/img8.png', style="width: 450px").m-auto
@@ -304,7 +304,7 @@
             li.d-flex
               i.fas.fa-check-circle(style="color: #4DB1F0")
               | 
-              p.mb-0 El mecanismo hidráulico debe permitir la circulación interior del agua almacenada evitando zonas muertas, así como la descarga de esta deberá ser en relación con lo primero que entra-lo primero que sale, esquema de mezcla tipo FIFO (por sus siglas en inglés First In, First Out).
+              p.mb-0 El mecanismo hidráulico debe permitir la circulación interior del agua almacenada evitando zonas muertas, así como la descarga de esta deberá ser en relación con lo primero que entra-lo primero que sale, esquema de mezcla tipo FIFO (por sus siglas en inglés #[i First In], #[i First Out]).
             li.d-flex
               i.fas.fa-check-circle(style="color: #4DB1F0")
               | 

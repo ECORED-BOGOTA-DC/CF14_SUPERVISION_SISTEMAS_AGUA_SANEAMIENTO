@@ -236,7 +236,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img18.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La ecuación de continuidad (Figura 1), como menciona Sotelo (1994) en su libro hidráulica básica, está determinada por el principio de conservación de la materia, donde la masa de un fluido es almacenada en un volumen control (forma y magnitud constantes) en un tiempo determinado.
+        p.mb-0 La ecuación de continuidad (Figura 1), como menciona Sotelo (1994) en su libro hidráulica básica, está determinada por el principio de conservación de la materia, donde la masa de un fluido es almacenada en un volumen control (forma y magnitud constante) en un tiempo determinado.
     .row.bg-c10.mb-4
       .col-12(data-aos="fade-up")
         .py-4.px-5

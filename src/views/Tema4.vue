@@ -77,7 +77,7 @@
         h3.text-white.mb-0 Turbiedad
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
-        p Ocurre cuando hay partículas en suspensión presentes en el agua, las cuales se visualizan por un cambio visual del agua, generalmente por materia orgánica que puede contener microorganismos que generan un tipo de riesgo en el agua para consumo, como es el caso de favorecer el crecimiento y presencia de la Giardia y el Cryptosporidium, cuya presencia puede disparar el puntaje de riesgo a 100, de acuerdo con la Resolución 2115 (2007), Artículo 13; razón por la cual el máximo permisible es 2 Unidades Nefelométricas de Turbiedad (UNT).
+        p Ocurre cuando hay partículas en suspensión presentes en el agua, las cuales se visualizan por un cambio visual del agua, generalmente por materia orgánica que puede contener microorganismos que generan un tipo de riesgo en el agua para consumo, como es el caso de favorecer el crecimiento y presencia de la Giardia y el #[i Cryptosporidium], cuya presencia puede disparar el puntaje de riesgo a 100, de acuerdo con la Resolución 2115 (2007), Artículo 13; razón por la cual el máximo permisible es 2 Unidades Nefelométricas de Turbiedad (UNT).
         .cajon.color-primario.p-4
           p.mb-0 El incremento en los valores de la turbiedad está asociado con una incorrecta operación y mantenimiento de los filtros, así como en los procesos de coagulación. Por ello, se debe hacer el análisis en diferentes unidades de tratamiento de los sistemas de agua (OPS y CEPIS, 2002).
       .col-lg-5(data-aos="fade-left")
@@ -241,7 +241,7 @@
           .tarjeta.tarjeta--azul.shadow
             .p-4
               h4 Importante
-              p.mb-0 Para consultar las fórmulas y la metodología para obtener el índice IRABAm y IRABApp se debe consultar la Resolución 2115 (2007), que se encuentra en el material complementario, dirigirse al Título IV y revisar desde el Artículo 17 en las páginas 9 a la 13.
+              p.mb-0 Para consultar las fórmulas y la metodología para obtener el índice IRABAm e IRABApp se debe consultar la Resolución 2115 (2007), que se encuentra en el material complementario, dirigirse al Título IV y revisar desde el Artículo 17 en las páginas 9 a la 13.
     Separador
     #t_4_3
     .titulo-segundo.color-acento-contenido
@@ -396,7 +396,7 @@
             .h2 4
           p.text-center.mb-0 Preservar y transportar al laboratorio de análisis.
     h4.txt-c1(data-aos="fade-down") Toma de muestra para análisis microbiológico
-    p.mb-4(data-aos="fade-left") Este tipo de análisis permite determinar la calidad microbiológica del agua, se debe tener en cuenta las fuentes de donde proviene la muestra con el fin de definir las condiciones y el protocolo a seguir en la toma de la muestra. Sin embargo a continuación se expone el procedimiento a seguir, esto es:
+    p.mb-4(data-aos="fade-left") Este tipo de análisis permite determinar la calidad microbiológica del agua, se debe tener en cuenta las fuentes de donde proviene la muestra con el fin de definir las condiciones y el protocolo a seguir en la toma de la muestra. Sin embargo, a continuación se expone el procedimiento a seguir, esto es:
     .row.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -406,7 +406,7 @@
           li.d-flex
             i.fas.fa-check-circle(style="color: #FFA031")
             | 
-            p.mb-0 No se debe realizar triple lavado del envase dado que previamente debe contar con tiosulfato de sodio (Na2S2O3) como preservante, para evitar que el cloro producto de la limpieza de este afecte la actividad biológica de los microorganismos presentes en la muestra de agua, desde la toma hasta el análisis en el laboratorio.  La solución de tiosulfato de sodio al 10 % puede ser de acuerdo con los protocolos del INS, en forma sólida (0.2 g) o líquida (0.5 mL).
+            p.mb-0 No se debe realizar triple lavado del envase, dado que previamente debe contar con tiosulfato de sodio (Na2S2O3) como preservante, para evitar que el cloro producto de la limpieza de este afecte la actividad biológica de los microorganismos presentes en la muestra de agua, desde la toma hasta el análisis en el laboratorio.  La solución de tiosulfato de sodio al 10 % puede ser de acuerdo con los protocolos del INS, en forma sólida (0.2 g) o líquida (0.5 mL).
           li.d-flex
             i.fas.fa-check-circle(style="color: #FFA031")
             | 

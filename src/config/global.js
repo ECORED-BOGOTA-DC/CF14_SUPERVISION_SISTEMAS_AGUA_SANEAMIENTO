@@ -163,26 +163,27 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: '1. Fundamentos básicos de hidráulica e hidrología.',
       referencia:
         'Diego Hernández. (2018, 29 julio). <em>Operación Planta de Tratamiento Agua Potable</em>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=iY1MYK_ZjBA&feature=youtu.be',
     },
     {
-      tema: '',
+      tema: '2. Redes de acueducto, alcantarillado e infraestructura.',
       referencia:
         'Letargo Acargo. (2011, 24 diciembre). <em>La historia del agua embotellada - Annie Leonard (Completo)</em>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=gNgbSJbqnSQ',
     },
     {
-      tema: '',
+      tema:
+        '2.2. Entidades de vigilancia y sus funciones de control de calidad del agua potable',
       referencia:
         'Resolución 2115 de 2007. [Ministerio de la Protección Social y Ministerio de Ambiente, Vivienda y Desarrollo Territorial]. Por medio de la cual se señalan características, instrumentos básicos y frecuencias del sistema de control y vigilancia para la calidad del agua para consumo humano. Junio 22 de 2007.',
       tipo: 'Normatividad',
       link:
-        'https://www.minambiente.gov.co/images/GestionIntegraldelRecursoHidrico/pdf/Legislaci%C3%B3n_del_agua/Resoluci%C3%B3n_2115.pdf',
+        'https://scj.gov.co/sites/default/files/marco-legal/Res_2115_de_2007.pdf',
     },
   ],
   glosario: [
@@ -254,8 +255,7 @@ export default {
     {
       referencia:
         'Comisión Nacional del Agua. (2007). <em>Manual de agua potable, alcantarillado y saneamiento</em>. Secretaría de Medio Ambiente y Recursos Naturales. ',
-      link:
-        'http://www.conagua.gob.mx/conagua07/publicaciones/publicaciones/Libros/03CarcamosDeBombeoParaAlcantarilladoFuncionaleHidraulico.pdf',
+      link: '',
     },
     {
       referencia:
@@ -265,8 +265,7 @@ export default {
     {
       referencia:
         'García, R. (2012). <em>Manual de prácticas de laboratorio de ingeniería sanitaria</em>. Universidad Autónoma de Chihuahua. ',
-      link:
-        'http://fing.uach.mx/licenciaturas/IC/2012/01/26/MANUAL_LABORATORIO_DE_SANITARIA.pdf',
+      link: '',
     },
     {
       referencia:
@@ -355,20 +354,17 @@ export default {
     {
       referencia:
         'Organización Mundial de la Salud y Organización Panamericana de la Salud. (2009). <em>Medición de cloro residual en el agua</em>. Guías técnicas sobre saneamiento, agua y salud. OMS. ',
-      link:
-        'https://www.minambiente.gov.co/images/GestionIntegraldelRecursoHidrico/pdf/Legislaci%C3%B3n_del_agua/Resoluci%C3%B3n_2115.pdf',
+      link: '',
     },
     {
       referencia:
         'Resolución 2115 de 2007. [Ministerio de la Protección Social y Ministerio de Ambiente, Vivienda y Desarrollo Territorial]. Por medio de la cual se señalan características, instrumentos básicos y frecuencias del sistema de control y vigilancia para la calidad del agua para consumo humano. Junio 22 de 2007. ',
-      link:
-        'https://www.minambiente.gov.co/images/GestionIntegraldelRecursoHidrico/pdf/Legislaci%C3%B3n_del_agua/Resoluci%C3%B3n_2115.pdf',
+      link: '',
     },
     {
       referencia:
         'Resolución 811 de 2008. [Ministerio de la Protección Social y Ministerio de Ambiente, Vivienda y Desarrollo Territorial]. Por medio de la cual se definen los lineamientos a partir de los cuales la autoridad sanitaria y las personas prestadoras, concertadamente definirán en su aérea de influencia los lugares y puntos de muestreo para el control y vigilancia de la calidad del agua para consumo humano en la red de distribución. Marzo 5 de 2008. ',
-      link:
-        'http://normograma.invima.gov.co/docs/resolucion_minproteccion_0811_2008.htm',
+      link: '',
     },
     {
       referencia:
@@ -400,22 +396,23 @@ export default {
         {
           nombre: 'Xiomara Becerra Aldana',
           cargo: 'Instructora ambiental',
-          centro: 'Centro de gestión industrial',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Jesus Ricardo Arias Munevar',
           cargo: 'Instructor ambiental',
-          centro: 'Centro de gestión industrial',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Silvia Milena Sequeda Cardenas',
           cargo: 'Diseñador instruccional',
-          centro: 'Centro de diseño y metrologia',
+          centro: 'Centro de Diseño y Metrologia - Regional Distrito Capital',
         },
         {
           nombre: 'Sergio Arturo Medina Castillo',
           cargo: 'Diseñador instruccional',
-          centro: 'Centro para la Industria de la Comunicación Gráfica',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
