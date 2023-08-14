@@ -237,8 +237,7 @@ export default {
     {
       referencia:
         'Asociación española de abastecimientos de agua y saneamiento. (1984). <em>Manual de la cloración del agua. Asociación española de abastecimientos de agua y saneamiento</em>. ',
-      link:
-        'https://www.asoaeas.com/sites/default/files/Documentos/AEAS.%20Manual%20de%20la%20Cloracion.pdf',
+      link: '',
     },
     {
       referencia:
