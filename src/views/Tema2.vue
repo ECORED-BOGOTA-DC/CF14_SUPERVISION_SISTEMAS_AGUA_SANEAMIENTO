@@ -383,7 +383,7 @@ export default {
       {
         titulo: 'Válvulas',
         texto:
-          'Dispositivo para la regulación del flujo a través de la tubería, adicionalmente permite la regulación de la presión y las variaciones en el cambio de la dirección del flujo o la permanencia de este a través de un conducto. Las válvulas pueden ser reguladoras de caudal, presión, purga de aire, de retención o de compuerta (Figura), entre otras.',
+          'Dispositivo para la regulación del flujo a través de la tubería, adicionalmente permite la regulación de la presión y las variaciones en el cambio de la dirección del flujo o la permanencia de este a través de un conducto. Las válvulas pueden ser reguladoras de caudal, presión, purga de aire, de retención o de compuerta, entre otras.',
         imagen: require('@/assets/curso/tema2/img6.png'),
         //leyendaImagen: 'Leyenda de la imagen',
       },
